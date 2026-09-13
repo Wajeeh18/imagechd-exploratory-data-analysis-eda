@@ -114,12 +114,12 @@ The same scan viewed from all three anatomical planes, with and without the segm
 Axial, coronal, and sagittal overlays compared across three different patients, highlighting how heart structure and orientation vary case to case.
 ![Raw CT with segmentation overlay](sample-outputs/rawCTwithOverlay.png)
 
-**Middle Axial Slice with Overlay — All Patients**
+**Middle Axial Slice with Overlay: All Patients**
 A full-cohort grid of the middle axial slice for every scan, with segmentation overlaid, giving a quick visual sense of dataset-wide variation.
 ![Middle slices for all patients](sample-outputs/middleSlicesMany.png)
 
 **Voxel Class Distribution**
-Voxel counts per cardiac structure shown on log scale, linear scale, and as a percentage share — highlighting the class imbalance across structures (e.g., Myocardium and Right Atrium dominate compared to LV/RV).
+Voxel counts per cardiac structure shown on log scale, linear scale, and as a percentage share, highlighting the class imbalance across structures (e.g., Myocardium and Right Atrium dominate compared to LV/RV).
 ![Voxel class distribution](sample-outputs/ClassDistribution.png)
 
 ---
