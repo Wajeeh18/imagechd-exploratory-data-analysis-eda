@@ -98,7 +98,29 @@ The analysis is organized into clear stages:
 
 ## 📊 Sample Output
 
-*(Add a screenshot here, e.g., a CT slice with segmentation overlay, or the class distribution bar chart, once pushed to GitHub, using `![description](path/to/image.png)`)*
+**CT Image, Segmentation Label, and Overlay**
+A single mid-slice comparison showing the raw CT scan, its corresponding label mask, and the two combined.
+![CT image, label, and overlay](sample-outputs/middleSlice.png)
+
+**Multiple Slices of a Single Scan**
+Sampling across the full depth of one CT volume to see how the heart's cross-section changes from top to bottom.
+![Multiple CT slices](sample-outputs/multipleSlices.png)
+
+**3-Plane View (Axial, Sagittal, Coronal)**
+The same scan viewed from all three anatomical planes, with and without the segmentation overlay.
+![3-plane view](sample-outputs/3PlaneView.png)
+
+**Raw CT with Segmentation Overlay Across Patients**
+Axial, coronal, and sagittal overlays compared across three different patients, highlighting how heart structure and orientation vary case to case.
+![Raw CT with segmentation overlay](sample-outputs/rawCTwithOverlay.png)
+
+**Middle Axial Slice with Overlay — All Patients**
+A full-cohort grid of the middle axial slice for every scan, with segmentation overlaid, giving a quick visual sense of dataset-wide variation.
+![Middle slices for all patients](sample-outputs/middleSlicesMany.png)
+
+**Voxel Class Distribution**
+Voxel counts per cardiac structure shown on log scale, linear scale, and as a percentage share — highlighting the class imbalance across structures (e.g., Myocardium and Right Atrium dominate compared to LV/RV).
+![Voxel class distribution](sample-outputs/ClassDistribution.png)
 
 ---
 
